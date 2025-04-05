@@ -20,6 +20,11 @@ export default function Dashboard() {
   const cryptoData = useSelector((state: RootState) => state.crypto.data)
 
   useEffect(() => {
+    // Fetch data immediately when component mounts
+    dispatch(fetchWeatherData(CITIES) as any)
+    dispatch(fetchCryptoData(CRYPTO_IDS) as any)
+    dispatch(fetchNewsData() as any)
+
     // Set up periodic data refresh
     const refreshInterval = setInterval(() => {
       dispatch(fetchWeatherData(CITIES) as any)
