@@ -5,5 +5,20 @@
       "src": "package.json",
       "use": "@vercel/next"
     }
+<<<<<<< HEAD
   ]
 }
+=======
+  ],
+  "env": {
+    "NEXT_PUBLIC_OPENWEATHER_API_KEY": "Your Key",
+    "NEXT_PUBLIC_NEWSDATA_API_KEY": "Your Key"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_OPENWEATHER_API_KEY": "Your Key",
+      "NEXT_PUBLIC_NEWSDATA_API_KEY": "Your Key"
+    }
+  }
+}
+>>>>>>> 26f7bbe8a0e0344a5357f121248ca25b956c5953
