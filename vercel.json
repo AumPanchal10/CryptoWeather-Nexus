@@ -7,13 +7,13 @@
     }
   ],
   "env": {
-    "NEXT_PUBLIC_OPENWEATHER_API_KEY": "c207a7d616ee94691f917bbdf1b292e8",
-    "NEXT_PUBLIC_NEWSDATA_API_KEY": "pub_7829702490aeb374454bf18ba0ea1843c2eaa"
+    "NEXT_PUBLIC_OPENWEATHER_API_KEY": "Your Key",
+    "NEXT_PUBLIC_NEWSDATA_API_KEY": "Your Key"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_OPENWEATHER_API_KEY": "c207a7d616ee94691f917bbdf1b292e8",
-      "NEXT_PUBLIC_NEWSDATA_API_KEY": "pub_7829702490aeb374454bf18ba0ea1843c2eaa"
+      "NEXT_PUBLIC_OPENWEATHER_API_KEY": "Your Key",
+      "NEXT_PUBLIC_NEWSDATA_API_KEY": "Your Key"
     }
   }
 }
